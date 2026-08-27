@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="MediSearch Rangpur - রংপুরের ডাক্তার, হাসপাতাল ও স্বাস্থ্যসেবা সহজে খুঁজে নিন।"
+    >
+
+    <title>MediSearch Rangpur | ডাক্তার ও হাসপাতাল খুঁজুন</title>
+
+
+    <!-- Google Font -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="container navbar">
+
+
+        <!-- Logo -->
+
+        <a
+            href="#"
+            class="logo"
+            id="logoBtn"
+        >
+
+            <div class="logo-icon">
+                <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+
+            <div class="logo-text">
+
+                <strong>MediSearch</strong>
+
+                <span>Rangpur</span>
+
+            </div>
+
+        </a>
+
+
+        <!-- Desktop Navigation -->
+
+        <nav class="desktop-nav">
+
+            <a
+                href="#home"
+                class="nav-link active"
+            >
+                হোম
+            </a>
+
+            <a
+                href="#doctors"
+                class="nav-link"
+            >
+                ডাক্তার
+            </a>
+
+            <a
+                href="#hospitals"
+                class="nav-link"
+            >
+                হাসপাতাল
+            </a>
+
+            <a
+                href="#specialties"
+                class="nav-link"
+            >
+                চিকিৎসা বিভাগ
+            </a>
+
+            <a
+                href="#about"
+                class="nav-link"
+            >
+                আমাদের সম্পর্কে
+            </a>
+
+        </nav>
+
+
+        <!-- Header Actions -->
+
+        <div class="header-actions">
+
+            <button
+                class="icon-btn"
+                id="themeBtn"
+                title="Theme"
+            >
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+
+            <a
+                href="#doctors"
+                class="header-cta"
+            >
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                ডাক্তার খুঁজুন
+
+            </a>
+
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+            >
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <div class="mobile-menu-header">
+
+        <strong>MediSearch Rangpur</strong>
+
+        <button id="mobileClose">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+
+    <nav>
+
+        <a href="#home">
+            <i class="fa-solid fa-house"></i>
+            হোম
+        </a>
+
+        <a href="#doctors">
+            <i class="fa-solid fa-user-doctor"></i>
+            ডাক্তার
+        </a>
+
+        <a href="#hospitals">
+            <i class="fa-solid fa-hospital"></i>
+            হাসপাতাল
+        </a>
+
+        <a href="#specialties">
+            <i class="fa-solid fa-stethoscope"></i>
+            চিকিৎসা বিভাগ
+        </a>
+
+        <a href="#about">
+            <i class="fa-solid fa-circle-info"></i>
+            আমাদের সম্পর্কে
+        </a>
+
+    </nav>
+
+</div>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section
+    class="hero"
+    id="home"
+>
+
+    <div class="container hero-content">
+
+
+        <div class="hero-text">
+
+            <span class="hero-badge">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                রংপুরের স্বাস্থ্যসেবা
+
+            </span>
+
+
+            <h1>
+
+                সঠিক ডাক্তার ও
+                <span>হাসপাতাল</span>
+                খুঁজে নিন সহজেই
+
+            </h1>
+
+
+            <p>
+
+                রংপুরের বিভিন্ন এলাকার ডাক্তার,
+                হাসপাতাল ও চিকিৎসা বিভাগ সম্পর্কে
+                তথ্য এক জায়গায় খুঁজে নিন।
+
+            </p>
+
+
+            <!-- Hero Search -->
+
+            <div class="hero-search">
+
+                <div class="search-icon">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="heroSearch"
+                    placeholder="ডাক্তারের নাম, বিভাগ বা রোগ লিখুন..."
+                >
+
+                <button
+                    id="heroSearchBtn"
+                    class="search-btn"
+                >
+
+                    খুঁজুন
+
+                </button>
+
+            </div>
+
+
+            <!-- Quick Search -->
+
+            <div class="quick-search">
+
+                <span>জনপ্রিয়:</span>
+
+                <button
+                    data-category="মেডিসিন"
+                >
+                    মেডিসিন
+                </button>
+
+                <button
+                    data-category="হৃদরোগ"
+                >
+                    হৃদরোগ
+                </button>
+
+                <button
+                    data-category="শিশু"
+                >
+                    শিশু
+                </button>
+
+                <button
+                    data-category="গাইনী"
+                >
+                    গাইনী
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Hero Visual -->
+
+        <div class="hero-visual">
+
+            <div class="hero-circle">
+
+                <i class="fa-solid fa-user-doctor"></i>
+
+            </div>
+
+
+            <div class="floating-card card-one">
+
+                <i class="fa-solid fa-user-doctor"></i>
+
+                <div>
+
+                    <strong>ডাক্তার</strong>
+
+                    <span>সহজে খুঁজুন</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card card-two">
+
+                <i class="fa-solid fa-hospital"></i>
+
+                <div>
+
+                    <strong>হাসপাতাল</strong>
+
+                    <span>তথ্য দেখুন</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card card-three">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+
+                    <strong>Appointment</strong>
+
+                    <span>সহজে যোগাযোগ</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     STATS
+===================================================== -->
+
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-user-doctor"></i>
+
+            </div>
+
+            <div>
+
+                <strong id="doctorCount">
+                    0
+                </strong>
+
+                <span>
+                    ডাক্তার
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-hospital"></i>
+
+            </div>
+
+            <div>
+
+                <strong id="hospitalCount">
+                    0
+                </strong>
+
+                <span>
+                    হাসপাতাল
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-stethoscope"></i>
+
+            </div>
+
+            <div>
+
+                <strong id="specialtyCount">
+                    0
+                </strong>
+
+                <span>
+                    চিকিৎসা বিভাগ
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <strong>
+                    Rangpur
+                </strong>
+
+                <span>
+                    সিটি
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SPECIALTIES
+===================================================== -->
+
+<section
+    class="section"
+    id="specialties"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    চিকিৎসা বিভাগ
+                </span>
+
+                <h2>
+                    আপনার প্রয়োজনীয়
+                    <span>বিভাগ</span>
+                    বেছে নিন
+                </h2>
+
+            </div>
+
+
+            <button
+                class="text-btn"
+                id="viewAllSpecialties"
+            >
+
+                সব বিভাগ
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+
+        <div
+            class="specialty-grid"
+            id="specialtyGrid"
+        >
+
+            <!-- JavaScript will load specialties -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     DOCTORS
+===================================================== -->
+
+<section
+    class="section doctors-section"
+    id="doctors"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    ডাক্তার
+                </span>
+
+                <h2>
+                    আপনার জন্য
+                    <span>বিশেষজ্ঞ ডাক্তার</span>
+                </h2>
+
+            </div>
+
+
+            <button
+                class="text-btn"
+                id="viewAllDoctors"
+            >
+
+                সব ডাক্তার
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- Doctor Filters -->
+
+        <div class="filter-box">
+
+
+            <div class="filter-search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="doctorSearch"
+                    placeholder="ডাক্তারের নাম বা বিভাগ খুঁজুন..."
+                >
+
+            </div>
+
+
+            <div class="filter-select">
+
+                <i class="fa-solid fa-stethoscope"></i>
+
+                <select id="doctorCategory">
+
+                    <option value="all">
+                        সব বিভাগ
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="filter-select">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <select id="doctorLocation">
+
+                    <option value="all">
+                        সব এলাকা
+                    </option>
+
+                    <option value="মেডিকেল মোড়">
+                        মেডিকেল মোড়
+                    </option>
+
+                    <option value="ধাপ">
+                        ধাপ
+                    </option>
+
+                    <option value="জেল রোড">
+                        জেল রোড
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <button
+                class="reset-btn"
+                id="resetDoctorSearch"
+            >
+
+                <i class="fa-solid fa-rotate-left"></i>
+
+                Reset
+
+            </button>
+
+        </div>
+
+
+
+        <!-- Doctor Grid -->
+
+        <div
+            class="doctor-grid"
+            id="doctorGrid"
+        >
+
+            <!-- JavaScript -->
+
+        </div>
+
+
+        <!-- No Doctor -->
+
+        <div
+            class="no-result"
+            id="doctorNoResult"
+        >
+
+            <i class="fa-solid fa-user-doctor"></i>
+
+            <h3>
+                কোনো ডাক্তার পাওয়া যায়নি
+            </h3>
+
+            <p>
+                অন্য নাম, বিভাগ অথবা এলাকা দিয়ে চেষ্টা করুন।
+            </p>
+
+        </div>
+
+
+        <!-- Load More -->
+
+        <div class="load-more-wrapper">
+
+            <button
+                class="load-more-btn"
+                id="loadMoreDoctors"
+            >
+
+                আরো ডাক্তার দেখুন
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     HOSPITALS
+===================================================== -->
+
+<section
+    class="section hospitals-section"
+    id="hospitals"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    হাসপাতাল ও ক্লিনিক
+                </span>
+
+                <h2>
+                    কাছাকাছি
+                    <span>স্বাস্থ্যসেবা কেন্দ্র</span>
+                </h2>
+
+            </div>
+
+
+            <button
+                class="text-btn"
+                id="viewAllHospitals"
+            >
+
+                সব হাসপাতাল
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- Hospital Filter -->
+
+        <div class="hospital-filter">
+
+
+            <div class="filter-search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="hospitalSearch"
+                    placeholder="হাসপাতালের নাম বা এলাকা খুঁজুন..."
+                >
+
+            </div>
+
+
+            <div class="filter-select">
+
+                <i class="fa-solid fa-hospital"></i>
+
+                <select id="hospitalType">
+
+                    <option value="all">
+                        সব ধরনের প্রতিষ্ঠান
+                    </option>
+
+                    <option value="সরকারি হাসপাতাল">
+                        সরকারি হাসপাতাল
+                    </option>
+
+                    <option value="বেসরকারি হাসপাতাল">
+                        বেসরকারি হাসপাতাল
+                    </option>
+
+                    <option value="ডায়াগনস্টিক সেন্টার">
+                        ডায়াগনস্টিক সেন্টার
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Hospital Grid -->
+
+        <div
+            class="hospital-grid"
+            id="hospitalGrid"
+        >
+
+            <!-- JavaScript -->
+
+        </div>
+
+
+        <!-- No Hospital -->
+
+        <div
+            class="no-result"
+            id="hospitalNoResult"
+        >
+
+            <i class="fa-solid fa-hospital"></i>
+
+            <h3>
+                কোনো হাসপাতাল পাওয়া যায়নি
+            </h3>
+
+            <p>
+                অন্য নামে অথবা অন্য ধরনের প্রতিষ্ঠান খুঁজুন।
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EMERGENCY
+===================================================== -->
+
+<section class="emergency-section">
+
+    <div class="container emergency-box">
+
+
+        <div class="emergency-icon">
+
+            <i class="fa-solid fa-truck-medical"></i>
+
+        </div>
+
+
+        <div class="emergency-text">
+
+            <span>
+                জরুরি প্রয়োজনে
+            </span>
+
+            <h2>
+                দ্রুত সাহায্যের প্রয়োজন?
+            </h2>
+
+            <p>
+                জরুরি অবস্থায় স্থানীয় জরুরি সেবা নম্বরে যোগাযোগ করুন।
+            </p>
+
+        </div>
+
+
+        <a
+            href="tel:999"
+            class="emergency-btn"
+        >
+
+            <i class="fa-solid fa-phone"></i>
+
+            999
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section
+    class="section about-section"
+    id="about"
+>
+
+    <div class="container about-grid">
+
+
+        <div class="about-content">
+
+            <span class="section-label">
+                MediSearch Rangpur
+            </span>
+
+            <h2>
+                রংপুরের স্বাস্থ্যসেবা
+                <span>তথ্য এক জায়গায়</span>
+            </h2>
+
+            <p>
+
+                MediSearch Rangpur একটি healthcare
+                information platform-এর concept,
+                যার মাধ্যমে ব্যবহারকারীরা ডাক্তার,
+                হাসপাতাল এবং বিভিন্ন চিকিৎসা বিভাগ
+                সম্পর্কে তথ্য সহজে খুঁজে পেতে পারেন।
+
+            </p>
+
+
+            <div class="about-points">
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    ডাক্তার খুঁজুন
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    হাসপাতালের তথ্য দেখুন
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    চিকিৎসা বিভাগ অনুযায়ী খুঁজুন
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    ফোন ও Appointment তথ্য
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-visual">
+
+            <div class="about-card">
+
+                <i class="fa-solid fa-heart-pulse"></i>
+
+                <h3>
+                    স্বাস্থ্যসেবা
+                </h3>
+
+                <p>
+                    সহজ, দ্রুত ও ব্যবহারবান্ধব
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     DISCLAIMER
+===================================================== -->
+
+<section class="disclaimer">
+
+    <div class="container">
+
+        <i class="fa-solid fa-circle-info"></i>
+
+        <p>
+
+            <strong>গুরুত্বপূর্ণ:</strong>
+            MediSearch Rangpur-এর তথ্য চিকিৎসার বিকল্প নয়।
+            কোনো ডাক্তার বা প্রতিষ্ঠানে যাওয়ার আগে
+            ফোন করে তথ্য ও Appointment নিশ্চিত করুন।
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+
+        <div class="footer-brand">
+
+            <a
+                href="#"
+                class="logo"
+            >
+
+                <div class="logo-icon">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+
+                </div>
+
+                <div class="logo-text">
+
+                    <strong>MediSearch</strong>
+
+                    <span>Rangpur</span>
+
+                </div>
+
+            </a>
+
+
+            <p>
+
+                রংপুরের ডাক্তার ও স্বাস্থ্যসেবা
+                খুঁজে পাওয়ার সহজ মাধ্যম।
+
+            </p>
+
+
+            <div class="social-links">
+
+                <a href="#" aria-label="Facebook">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </a>
+
+                <a href="#" aria-label="YouTube">
+
+                    <i class="fa-brands fa-youtube"></i>
+
+                </a>
+
+                <a href="#" aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>
+                দ্রুত লিংক
+            </h3>
+
+            <a href="#home">
+                হোম
+            </a>
+
+            <a href="#doctors">
+                ডাক্তার
+            </a>
+
+            <a href="#hospitals">
+                হাসপাতাল
+            </a>
+
+            <a href="#specialties">
+                চিকিৎসা বিভাগ
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>
+                তথ্য
+            </h3>
+
+            <a href="#about">
+                আমাদের সম্পর্কে
+            </a>
+
+            <a
+                href="#"
+                id="privacyBtn"
+            >
+                Privacy Policy
+            </a>
+
+            <a
+                href="#"
+                id="termsBtn"
+            >
+                Terms & Conditions
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>
+                যোগাযোগ
+            </h3>
+
+            <p>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                রংপুর, বাংলাদেশ
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                জরুরি: 999
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+
+                ©
+                <span id="currentYear"></span>
+                MediSearch Rangpur.
+                All Rights Reserved.
+
+            </p>
+
+            <p>
+                Healthcare Information Platform
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     DOCTOR MODAL
+===================================================== -->
+
+<div
+    class="modal"
+    id="doctorModal"
+    aria-hidden="true"
+>
+
+    <div class="modal-overlay"></div>
+
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="doctorModalClose"
+        >
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div id="doctorModalContent">
+
+            <!-- JavaScript -->
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     HOSPITAL MODAL
+===================================================== -->
+
+<div
+    class="modal"
+    id="hospitalModal"
+    aria-hidden="true"
+>
+
+    <div class="modal-overlay"></div>
+
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="hospitalModalClose"
+        >
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div id="hospitalModalContent">
+
+            <!-- JavaScript -->
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div
+    class="toast"
+    id="toast"
+>
+
+    <i class="fa-solid fa-circle-check"></i>
+
+    <span id="toastMessage">
+        Done
+    </span>
+
+</div>
+
+
+
+<!-- =====================================================
+     BACK TO TOP
+===================================================== -->
+
+<button
+    class="back-to-top"
+    id="backToTop"
+    title="Back to top"
+>
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="data.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
